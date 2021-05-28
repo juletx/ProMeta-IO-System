@@ -1,0 +1,5 @@
+name: 'Import Processes'
+description: 'Import processes from database.'
+package: Custom
+core_version_requirement: ^8 || ^9
+type: module

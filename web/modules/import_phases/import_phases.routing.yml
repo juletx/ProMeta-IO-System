@@ -1,0 +1,7 @@
+import_phases.routing:
+   path: /import/phases
+   defaults:
+      _controller: Drupal\import_phases\Controller\ImportPhasesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

@@ -1,0 +1,7 @@
+import_domains.routing:
+   path: /import/domains
+   defaults:
+      _controller: Drupal\import_domains\Controller\ImportDomainsController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

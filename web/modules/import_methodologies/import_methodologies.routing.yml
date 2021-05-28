@@ -1,0 +1,7 @@
+import_methodologies.routing:
+   path: /import/methodologies
+   defaults:
+      _controller: Drupal\import_methodologies\Controller\ImportMethodologiesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

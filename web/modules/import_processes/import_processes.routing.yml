@@ -1,0 +1,7 @@
+import_processes.routing:
+   path: /import/processes
+   defaults:
+      _controller: Drupal\import_processes\Controller\ImportProcessesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

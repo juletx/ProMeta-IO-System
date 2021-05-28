@@ -1,0 +1,7 @@
+import_artifacts.routing:
+   path: /import/artifacts
+   defaults:
+      _controller: Drupal\import_artifacts\Controller\ImportArtifactsController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

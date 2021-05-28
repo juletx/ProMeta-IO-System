@@ -1,0 +1,5 @@
+name: 'Import Activities'
+description: 'Import activities from database.'
+package: Custom
+core_version_requirement: ^8 || ^9
+type: module

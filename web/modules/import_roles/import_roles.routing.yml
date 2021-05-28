@@ -1,0 +1,7 @@
+import_roles.routing:
+   path: /import/roles
+   defaults:
+      _controller: Drupal\import_roles\Controller\ImportRolesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

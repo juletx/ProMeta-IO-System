@@ -1,0 +1,7 @@
+import_disciplines.routing:
+   path: /import/disciplines
+   defaults:
+      _controller: Drupal\import_disciplines\Controller\ImportDisciplinesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

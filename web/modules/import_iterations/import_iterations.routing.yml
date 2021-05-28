@@ -1,0 +1,7 @@
+import_iterations.routing:
+   path: /import/iterations
+   defaults:
+      _controller: Drupal\import_iterations\Controller\ImportIterationsController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

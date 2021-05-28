@@ -1,0 +1,7 @@
+import_tasks.routing:
+   path: /import/tasks
+   defaults:
+      _controller: Drupal\import_tasks\Controller\ImportTasksController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'

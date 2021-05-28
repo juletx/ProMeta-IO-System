@@ -1,0 +1,5 @@
+name: 'Import Roles'
+description: 'Import roles from database.'
+package: Custom
+core_version_requirement: ^8 || ^9
+type: module

@@ -1,0 +1,7 @@
+import_activities.routing:
+   path: /import/activities
+   defaults:
+      _controller: Drupal\import_activities\Controller\ImportActivitiesController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'administrator'
